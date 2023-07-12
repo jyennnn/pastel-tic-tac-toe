@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #d6d6d6; 
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Comfortaa';
+    font-size: 25px;
+    line-height: 25px;
+}
+
+/*--header--------------------------------*/
+header {
+    flex: 1 0 20%;
+    background-color: rgb(101, 157, 180);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#TTT-title {
+    font-size: 28px;
+    text-transform: lowercase;
+    color: rgb(247, 244, 244);
+
+}
+
+
+/*--main--------------------------------*/
+main {
+    flex: 3 0 60%;
+    background-color: rgb(233, 184, 201);
+}
+
+#ttt {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    font-size: 60px;
+    color:rgb(255, 255, 255)
+}
+
+.ttt-board {
+    display: grid;
+    grid-template-columns: 190px 190px 190px;
+    grid-template-rows: 150px 150px 150px;
+}
+
+.box {
+    display: grid;
+    place-items: center;
+}
+
+.box:hover {
+    background-color: rgb(191, 218, 227);
+    transition: background-color 0.5s ease-in-out;
+}
+
+.box-A {
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+.box-B {
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+.box-C {
+    border-bottom: 4px solid white;
+}
+
+.box-D {
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+.box-E {
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+.box-F {
+    border-bottom: 4px solid white;
+}
+
+.box-G {
+    border-right: 4px solid white;
+}
+
+.box-H {
+    border-right: 4px solid white;
+}
+
+/*--Footer--------------------------------*/
+footer {
+    flex: 1 0 20%;
+    background-color: rgb(101, 157, 180);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-col {
+    flex-basis: 25%;
+}
+
+.footer-col2 {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#game-console {
+    padding: 1.5em;
+}
+
+#game-start {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 5%;
+    text-align: center;
+    color:rgb(101, 157, 180);
+    font-family: 'Comfortaa';
+    font-weight: bold;
+}
+
+#game-start:hover {
+    background-color: rgb(249, 225, 233);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.game-text{
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5%;
+    font-family: 'Comfortaa';
+    color:rgb(252, 233, 240);
+    font-weight: bold;
+}
+
+.reset-button {
+    font-family: 'Comfortaa';
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 5%;
+    color:rgb(101, 157, 180);
+    font-weight: bold;
+}
+
+.reset-button:hover {
+    background-color: rgb(249, 225, 233);
+    transition: background-color 0.3s ease-in-out;
+}
